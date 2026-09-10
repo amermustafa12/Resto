@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MenuItem } from "../types/menu";
+import { MenuItem } from "@/types/menu";
 
 type MenuCardProps = {
   item: MenuItem;
