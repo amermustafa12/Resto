@@ -49,12 +49,12 @@ export default function SignInPage() {
           </button>
         </form>
 
-        <p className="mt-8 text-center text-sm text-gray-600 dark:text-gray-400">
-          Don't have an account?{" "}
-          <Link href="/signup" className="text-brand-accent font-medium hover:underline">
-            Sign up
-          </Link>
-        </p>
+    <p className="mt-8 text-center text-sm text-gray-600 dark:text-gray-400">
+  Don&apos;t have an account?{" "}
+  <Link href="/signup" className="text-brand-accent font-medium hover:underline">
+    Sign up
+  </Link>
+</p>
 
       </div>
     </div>

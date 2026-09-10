@@ -1,4 +1,11 @@
-import { MenuItem } from "@/types/menu";
+export interface MenuItem {
+  id: string;
+  name: string;
+  description: string;
+  price: number;
+  image: string;
+  category: string;
+}
 
 export const menuData: MenuItem[] = [
   {

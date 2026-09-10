@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MenuItem } from "@/types/menu";
+import { MenuItem } from "@/data/menu";
 
 type MenuCardProps = {
   item: MenuItem;
@@ -16,7 +16,7 @@ export default function MenuCard({ item }: MenuCardProps) {
           className="object-cover group-hover:scale-105 transition-transform duration-500"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
-        <div className="absolute top-4 left-4 bg-white/90 dark:bg-gray-900/90 px-3 py-1 rounded-full text-xs font-semibold text-brand-accent backdrop-blur-sm">
+        <div className="absolute top-4 left-4 bg-white/95 dark:bg-gray-900/95 px-3 py-1 rounded-full text-xs font-semibold text-brand-accent backdrop-blur-sm shadow-sm">
           {item.category}
         </div>
       </div>
